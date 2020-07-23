@@ -1,0 +1,131 @@
+@media screen and (max-width:1350px){
+    #testimonial .card{
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width:1070px){
+    html{
+        font-size: 14px;
+    }
+    :root{
+        --section-gutters: 5rem;
+    }
+    #testimonial .card .text_large{
+        font-size: 1.25rem;
+    }
+    #testimonial .card .card-subtitle{
+        font-size: .8rem;
+    }   
+    #testimonial .card img{
+        width: 35%;
+    }
+}
+@media screen and (max-width:900px){
+   #testimonial .card{
+       font-size: .8rem;
+   }
+   #testimonial .card img{
+       width: 45%;
+   }
+}
+@media screen and (max-width:800px){
+    :root{
+        --section-gutters:4rem;
+    }
+    section,
+    header{
+        padding: 0 4rem;
+    }
+    #hero .hero-text{
+        font-size: 2.25rem;
+    }
+    #service .card {
+        font-size: .8rem;
+    }
+    #service .card-body img{
+        width: 20%;
+    }
+    .text_large{
+        font-size: 1.3rem;
+    }
+    #experience .wrapper{
+        font-size: .8rem;
+    }
+    #contact .row{
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width: 780px){
+    #testimonial .card{
+        font-size: .7rem;
+    }
+    #testimonial .card img{
+        width: 40%;
+    }
+}
+@media screen and (max-width:700px){
+    html{
+        font-size: 12px;
+    }
+    #testimonial .card-body{
+        font-size: .8rem;
+    }
+    #testimonial .card img{
+        width: 40%;
+    }
+}
+@media screen and (max-width:576px){
+    html{
+        font-size: 16px;
+    }
+    header,
+    section{
+        padding: 0 3rem;
+    }
+    #service .card {
+        font-size: 1rem;
+    }
+    #service .card-body img{
+        width: 15%;
+    }
+    #testimonial .card{
+        font-size: 1rem;
+    }
+    #testimonial .card-body{
+        font-size: 1rem;
+    }
+    #testimonial .card img{
+        width: 30%;
+    }
+    .swiper-slide{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:500px){
+    :root{
+        --section-gutters: 2rem;
+    }
+    #hero,
+    header{
+        padding: 0 2rem;
+    }
+    body p{
+        line-height: 1.5rem;
+    }
+}
+@media screen and (max-width:400px){
+    html{
+        font-size: 12px;
+    }
+    :root{
+        --section-gutters: 2rem;
+    }
+    .choices {
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width:300px){
+    .hero-text{
+        font-size: 2rem;
+    }
+}
